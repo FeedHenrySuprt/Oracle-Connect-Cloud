@@ -1,25 +1,4 @@
-# FeedHenry Hello World MBaaS Server
+# FeedHenry Oracle Connection Tester - Cloud side
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+Uses the node [Oracle Package](https://www.npmjs.com/package/oracle) to connect and return the date form an instance of Oracle.  Tested using an Amazon RDS Oracle instance.
 
-# Group Hello World API
-
-# hello [/hello]
-
-'Hello world' endpoint.
-
-## hello [POST] 
-
-'Hello world' endpoint.
-
-+ Request (application/json)
-    + Body
-            {
-              "hello": "world"
-            }
-
-+ Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
